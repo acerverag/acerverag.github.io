@@ -1,0 +1,589 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Fondo cada seccion */
+
+.Fiesta {
+
+    width: 100%;
+    max-height: 130vh;
+    background-image: url(Imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: solid;
+    
+}
+
+.Personas {
+
+    width: 100%;
+    max-height: 140vh;
+    background-image: url(Imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: solid;
+    
+}
+
+.Lugares {
+
+    width: 100%;
+    max-height: 120vh;
+    background-image: url(Imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: solid;
+    
+}
+
+.Regalos {
+
+    width: 100%;
+    max-height: 120vh;
+    background-image: url(Imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: solid;
+    
+}
+
+.Recuerdos {
+
+    width: 100%;
+    max-height: 120vh;
+    background-image: url(Imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: solid;
+    
+}
+
+.Asistencia {
+
+    width: 100%;
+    max-height: 120vh;
+    background-image: url(Imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: solid;
+
+}
+
+ .contai {
+
+    height: 5px;
+
+ }
+
+
+/* Fin de fondo de seccion */
+
+/* Estilos de seccion FIESTA */
+
+.banner-text {
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ h1 {
+
+    margin-top: 3%;
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 50px;
+
+ }
+
+ .corona {
+
+   width: 200px;
+   margin-top: 2%;
+
+ }
+
+ p {
+
+    width: 60%;
+    color: #C0C0C0;
+    font-size: 25px;
+    margin-top: 2%;
+    text-align: center;
+
+ }
+
+ .cont-temporizador {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+
+ }
+
+ .cont-temporizador .bloque {
+
+    margin: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cont-temporizador .bloque div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0C0C0;  
+    color: #fff;
+    font-size: 250%;
+    font-weight: bold;
+    width: 120px;
+    height: 60px;
+    margin-top: 2%;
+    border-radius: 5%;
+
+}
+
+.cont-temporizador .bloque p {
+
+    font-size: 15px;
+    color: #C0C0C0;
+
+}
+
+.imagen1 {
+
+    width: 500px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+/* Fin de seccion de FIESTA */
+
+/* Seccion PERSONAS */
+
+.cont {
+
+    width: 100%;
+    /*40% para pantalla grande*/
+    max-width: 1000px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 25%;
+
+}
+
+.cont .card {
+
+    width: 280px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0.0, 0.0, 0.0, 0.5);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transform: all 0.25s;
+
+}
+
+.cont .card h2 {
+
+    margin-top: 2%;
+    font-weight: 400;
+    color: #C0C0C0;
+    text-transform: uppercase;
+
+}
+
+.cont .card img {
+
+    width: 280px;
+    height: 250px;
+    border-radius: 12px;
+
+}
+
+/* Fin de seccion PERSONAS */
+
+/* Seccion LUGARES */
+
+.cont2 {
+
+    width: 50%;
+    /*40% para pantalla grande*/
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 40%;
+
+}
+
+.cont2 .card2 {
+
+    width: 280px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0.0, 0.0, 0.0, 0.5);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transform: all 0.25s;
+
+}
+
+.cont2 .card2 img {
+
+    width: 280px;
+    height: 220px;
+    border-radius: 12px;
+
+}
+
+.cont2 .card2 h2 {
+
+    margin-top: 2%;
+    font-weight: 400;
+    color: #C0C0C0;
+    text-transform: uppercase;
+
+}
+
+.cont2 .card2 p2 {
+
+    font-size: 18px;
+    font-weight: 300;
+    color: #C0C0C0;
+
+}
+
+.cont2 .card2 a {
+
+    font-weight: 500;
+    text-decoration: none;
+    color: #C0C0C0;
+
+}
+
+.btn-a {
+
+    display: inline-block;
+    background-color: #000;
+    margin-top: 7%;
+    padding: 15px 30px;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border-style: solid;
+
+}
+
+.btn-a:hover {
+    background-color: #C0C0C0;
+}
+
+.ventana {
+    background-color: #C0C0C0;
+    width: 50%;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 25%;
+    display: none;
+    margin-top: 180px;
+}
+
+.ventana2 {
+    background-color: #C0C0C0;
+    width: 50%;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 25%;
+    display: none;
+    margin-top: 180px;
+}
+
+#cerrar {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+/* Fin de seccion LUGARES */
+
+/* Seccion REGALOS */
+
+h3 {
+
+    font-size: 30px;
+    margin-top: 10%;
+    text-align: center;
+    color: #C0C0C0;
+
+}
+
+.cont3 {
+    width: 50%;
+    /*40% para pantalla grande*/
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 25%;
+
+}
+
+.cont3 .card3 {
+    width: 280px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0.0, 0.0, 0.0, 0.5);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transform: all 0.25s;
+}
+
+.cont3 .card3 h2 {
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #C0C0C0;
+    text-transform: uppercase;
+}
+
+.cont3 .card3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+
+
+/* Fin de seccion REGALOS */
+
+/* Seccion RECUERDOS */
+
+.container-slider {
+
+    width: 90%;
+    max-width: 650px;
+    height: 650px;
+    margin: auto;
+    overflow: hidden;
+    position: unset;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border-style: double;
+    border-color: #C0C0C0;
+    position: relative;
+
+}
+
+.slider {
+
+    display: flex;
+    width: 1500%;
+    height: 650px;
+    margin-left: -100%;
+
+}
+
+.slider--section {
+
+    width: 100%;
+
+}
+
+.slider--img {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.slider--btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slider--btn:hover {
+    background-color: #fff;
+  }
+  
+  .slider--btn--left {
+    left: 10px;
+  }
+  
+  .slider--btn--right {
+    right: 10px;
+  }
+
+/* Fin de seccion RECUERDOS */
+
+/* Seccion ASISTENCIA */
+
+.form-container {
+
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    width: 350px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+
+}
+
+.h1-login {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .2em;
+}
+
+.imgA {
+
+    width: 100%;
+
+
+}
+
+h6 {
+
+    color: #C0C0C0;
+    text-align: center ;
+    font-size: 30px;
+
+}
+
+.asis {
+
+    text-decoration: none;
+
+}
+
+.contact {
+
+    text-align: center;
+    color:crimson;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/* Fin de seccion ASISTENCIA */
+
+@media (max-width:1278px) {
+
+    .cont3 {
+
+        width: 60%;
+
+    }
+
+    .cont2 {
+
+        width: 60%;
+
+    }
+
+}
+
+@media (max-width:1066px) {
+
+    .cont3 {
+
+        width: 70%;
+
+    }
+
+    .cont2 {
+
+        width: 70%;
+
+    }
+
+    .ventana {
+
+        left: 22%;
+
+    }
+
+    .ventana2 {
+
+        left: 22%;
+
+    }
+
+}
+
+@media (max-width:990px){
+
+    .cont {
+
+        width: 80%;
+        margin-bottom: 65%;
+
+    }
+
+}
+
+
+
+
